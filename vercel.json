@@ -5,6 +5,16 @@
     }
   },
   "routes": [
-    { "src": "/(.*)",  "dest": "/api/index.php" }
+    { "src": "/(.*)",  "dest": "/api/index.php" },
+    { "src": "/(.*)",  "dest": "/api/config.php" },
+    { "src": "/(.*)",  "dest": "/api/f.php" },
+    { "src": "/(.*)",  "dest": "/api/login.php" },
+    { "src": "/(.*)",  "dest": "/api/logout.php" },
+    { "src": "/(.*)",  "dest": "/api/s.php" },
+    { "src": "/(.*)",  "dest": "/api/post/index.php" },
+    { "src": "/(.*)",  "dest": "/api/css/filme.css" },
+    { "src": "/(.*)",  "dest": "/api/css/index.css" },
+    { "src": "/(.*)",  "dest": "/api/css/serie.css" },
+    { "src": "/(.*)",  "dest": "/api/assets/favicon.ico" }
   ]
 }
