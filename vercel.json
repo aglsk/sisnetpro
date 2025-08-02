@@ -9,8 +9,14 @@
 
     { "src": "/login", "dest": "/api/login.php" },
     { "src": "/logout", "dest": "/api/logout.php" },
+    { "src": "/f", "dest": "/api/f.php" },
+    { "src": "/s", "dest": "/api/s.php" },
     { "src": "/post/(.*)", "dest": "/api/post/index.php" },
-    { "src": "/api/(.*\\.php)$", "dest": "/api/$1" },
+
+    { "src": "/config.php", "dest": "/api/config.php" },
+    { "src": "/index.php", "dest": "/api/index.php" },
+
+    { "src": "/favicon.ico", "dest": "/api/assets/favicon.ico" },
 
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
