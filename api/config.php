@@ -1,5 +1,8 @@
 <?php
-session_start();
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
 // URL do seu Web App do Google Apps Script
 const APPSCRIPT_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzUUXotRZ-8uZWFxFqnaJQ4XUIH_x1Jh0Yq78lXqX7qVuj7v1irWVvpFpIkcI4KN-5i/exec';
