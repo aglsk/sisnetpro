@@ -43,7 +43,7 @@ function isLoggedIn(): bool {
 
 // Redirecionar se não logado
 if (!isLoggedIn() && basename($_SERVER['PHP_SELF']) != 'login.php') {
-    header('Location: login.php');
+    header('Location: /login');
     exit;
 }
 
