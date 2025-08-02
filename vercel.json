@@ -5,14 +5,12 @@
     }
   },
   "routes": [
-    { "handle": "filesystem" },             
+    { "handle": "filesystem" },
 
     { "src": "/login", "dest": "/api/login.php" },
     { "src": "/logout", "dest": "/api/logout.php" },
     { "src": "/post/(.*)", "dest": "/api/post/index.php" },
     { "src": "/api/(.*\\.php)$", "dest": "/api/$1" },
-    { "src": "/css/(.*)", "dest": "/api/css/$1" },
-    { "src": "/assets/(.*)", "dest": "/api/assets/$1" },
 
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
