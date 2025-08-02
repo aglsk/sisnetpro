@@ -1,5 +1,5 @@
 <?php
-require_once 'config.php';
+require_once '/config.php';
 ?>
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -21,12 +21,12 @@ require_once 'config.php';
     </div>
     <div class="sidebar-menu">
       <a href="index.php" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
-      <a href="f.php"><i class="fas fa-plus-circle"></i> Adicionar Filme</a>
+      <a href="f"><i class="fas fa-plus-circle"></i> Adicionar Filme</a>
       <a href="#"><i class="fas fa-list"></i> Listar Filmes</a>
-      <a href="s.php"><i class="fas fa-tv"></i> Adicionar Série</a>
+      <a href="s"><i class="fas fa-tv"></i> Adicionar Série</a>
       <a href="#"><i class="fas fa-list-ol"></i> Listar Séries</a>
       <a href="/post"><i class="fas fa-search"></i> Post IMG</a>
-      <a href="logout.php"><i class="fas fa-sign-out-alt"></i> Sair</a>
+      <a href="logout"><i class="fas fa-sign-out-alt"></i> Sair</a>
     </div>
   </div>
 
